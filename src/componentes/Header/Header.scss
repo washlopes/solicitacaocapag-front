@@ -1,0 +1,18 @@
+header.AppHeader {
+    background-color: #09f;
+    color: #fff;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    box-shadow: 0 3px 6px rgba(#000, .2);
+
+    text-transform: uppercase;
+
+    &.h1 {
+        font-size: 1.2em;
+    }
+}

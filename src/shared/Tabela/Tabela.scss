@@ -1,0 +1,47 @@
+table.AppTable {
+
+
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(#000, .1);
+    border-collapse: collapse;
+
+    thead {
+        background-color: #09f;
+
+        tr th {
+            color: #fff;
+            text-align: left;
+            padding: 5px 10px;
+            font-size: .8em;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: .75px;
+        }
+
+
+
+    }
+
+    tbody {
+        tr {
+            &:hover {
+                background-color: rgba(#000, .05);
+            }
+
+            //&:nth-child(even) {
+            //  background-color: rgba(#69f, .1);
+            //}
+
+            td {
+                padding: 5px 10px;
+                color: #222;
+            }
+        }
+
+
+    }
+
+
+
+
+}
